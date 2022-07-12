@@ -1,0 +1,106 @@
+body {
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+.profile-pictures {
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  /* margin-top: 80px; */
+  padding-top: 80px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+a .bi {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.profile-pictures img {
+  border: 4px solid #fff;
+}
+/* 
+.kotak {
+  background-image: url(img/karsten-wurth-B5drkS_Z5RM-unsplash.jpg);
+  background-size: cover;
+} */
+
+.profile-name {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-weight: 700;
+  color: #fff;
+}
+
+a {
+  background-color: yellow;
+  padding: 10px 20px;
+  border-radius: 40px;
+  display: flex;
+  margin-top: 20px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  transition: all 1s ease-in-out;
+}
+
+a:hover {
+  background-color: deeppink;
+  transition: all 1s ease-in;
+  color: aliceblue;
+  box-shadow: 0px 15px 18px rgba(0, 0, 0, 0.1);
+  width: 150px;
+}
+
+.tombol {
+  background-color: yellowgreen;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  height: auto;
+  width: auto;
+  margin-top: 20px;
+  color: #fff;
+  padding: 10px 30px;
+}
+
+.tombol:hover {
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.1);
+}
+
+.marquee {
+  font-weight: 500;
+  font-style: bold;
+  color: darkorange;
+}
+
+.link {
+  padding: 10px;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+footer {
+  margin-top: 60px;
+  text-align: center;
+  color: #fff;
+}
+
+footer span {
+  color: deeppink;
+  font-weight: 700;
+}
+
+@media (min-width: 992px) {
+  a {
+    width: 400px;
+  }
+}
